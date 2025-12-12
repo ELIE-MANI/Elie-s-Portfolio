@@ -24,7 +24,9 @@ function Hero() {
         <h1 className="text-5xl font-bold">Hi, I'm Elie</h1>
         <p className='mt-4 text-gray-500 '>Front-end Developer</p>
         <p className="mt-4 text-base text-gray-500">A passionate developer specializing <br /> in creating amazing web experiences.</p>
+        <a href="#contact">
         <button className="mt-8 px-6 py-3 bg-blue-600 text-white rounded-lg">Get in Touch</button>
+      </a>
       </div>
       <div>
         <img src={avatar} alt="Elie's Avatar" className="w-64 h-64 rounded-full object-cover"/>

@@ -1,5 +1,6 @@
 import { useState } from 'react';
-
+import webdesign from "../images/web-design.png"
+import prototype from "../images/prototype.png"
 function Services () {
     const services =[
         {
@@ -8,18 +9,20 @@ function Services () {
                 "Wireframing & Prototyping (Figma)",
                 "Building user-friendly interfaces",
                 "Complete UX research and testing"
-            ]
+            ],
+            image:webdesign
         },
 
         {
-            title: "Frontend Development",
+            title: "Frontend Developer",
             details: [
                 "Static websites using HTML, CSS, JavaScript",
                 "Responsive design with Tailwind CSS",
                 "Website using frameworks like React.js",
                 "Fronted apps integrated with backend APIs",
 
-            ]
+            ],
+            image:prototype
         },
     ];
 
@@ -37,8 +40,11 @@ function Services () {
                 onClick={() => setActiveService(service)}
                 className='w-1/3 p-6  rounded-xl shadow-md cursor-pointer bg-white hover:shadow-xl transition'
                 >
+                 <div className='flex flex-col space-y-10 mt-20'>   
+                 <img src={service.image} alt=""className='icon-blue w-8 h-8 ' />
                 <h3 className='text-xl font-semibold mb-4'>{service.title}</h3>
                 <p className='text-[#32487a] font-medium'>View More →</p>
+                </div>
                 </div>
             ))}
            {activeService && (
