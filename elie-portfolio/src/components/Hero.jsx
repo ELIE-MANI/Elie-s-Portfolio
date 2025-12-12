@@ -8,7 +8,7 @@ import github from '../images/github.png';
 function Hero() {
   return ( 
     <>
-    <section className='mt-50 flex justify-center items-center space-x-30 p-5 '>
+    <section id='Home' className='mt-50 flex justify-center items-center space-x-30 p-5 '>
       <div className='flex flex-col space-y-10 items-center'>
         <a href="https://www.linkedin.com/in/maniraguha-elie-1b37a922a/" target="_blank" rel="noopener noreferrer">
         <img src={linkedIn} alt="LinkedIn Logo" className="w-4 h-4 object-cover transition-transform duration-200 hover:scale-110"/>

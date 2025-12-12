@@ -7,3 +7,15 @@ button {
   color: #ffffff;
   background-color: #32486c;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #32487a; 
+  width: 30px;
+  height: 30px;
+  
+
+}
+.swiper-pagination-bullet {
+  background-color: #32487a; 
+}
