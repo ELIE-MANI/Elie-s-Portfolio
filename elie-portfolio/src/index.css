@@ -3,3 +3,7 @@ body {
   background-color: #fbfcfe;
   font-family: "Poppins", sans-serif;
 }
+button {
+  color: #ffffff;
+  background-color: #32486c;
+}
