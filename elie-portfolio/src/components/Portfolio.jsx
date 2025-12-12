@@ -29,10 +29,10 @@ const projects = [
 ];
 
   return (
-      <section className="mt-20">
+      <section id="portfolio" className="mt-20">
      <div className="mb-10">
         <h2 className="text-center text-3xl font-bold">Portfolio</h2>
-        <p className="text-center text-gray-500">Most Recent Work</p>
+        <p className="text-center text-gray-500 mt-3">Most Recent Work</p>
      </div>
     <div > 
     <Swiper 

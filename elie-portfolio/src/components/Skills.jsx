@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import webdesign from "../images/web-design.png"
+import prototype from "../images/prototype.png"
 
 function Skills() {
 const [openFrontend, setOpenFrontend] = useState(false);
@@ -17,9 +19,12 @@ return (
       <div className=''>  
      <h2 
       onClick={() => setOpenFrontend(!openFrontend)}
-      className='w-100  text-left text-lg  font-semibold cursor-pointer p-4 rounded-md hover:bg-gray-200 transition-colors duration-200'  
+      className='w-120  text-left text-lg  font-semibold cursor-pointer p-4 rounded-md hover:bg-gray-200 transition-colors duration-200'  
        >
-        Frontend Developer <span className='mx-20'>{openFrontend ? "▲" : "▼"}</span>
+        <div className='flex gap-5'>
+       <img src={webdesign} alt="web-design" className='icon-blue w-8 h-8'  /> 
+       Frontend Developer <span className='mx-20'>{openFrontend ? "▲" : "▼"}</span>
+      </div>
       </h2>
       {openFrontend && (
         <ul className='mt-4 space-y-3'>
@@ -35,9 +40,12 @@ return (
            <div className=' min-h-[200px]'>  
      <h2 
       onClick={() => setOpenDesigner(!openDesigner)}
-      className='w-100  text-left text-lg  font-semibold cursor-pointer p-4 rounded-md hover:bg-gray-200 transition-colors duration-200'  
+      className='w-120  text-left text-lg  font-semibold cursor-pointer p-4 rounded-md hover:bg-gray-200 transition-colors duration-200'  
        >
+        <div className='flex gap-5'>
+       <img src={prototype} alt="prototype" className='icon-blue w-8 h-8'  />
         UI/UX Designer <span className='mx-20'>{openDesigner ? "▲" : "▼"}</span>
+      </div>
       </h2>
       {openDesigner && (
         <ul className='mt-4 space-y-3'>

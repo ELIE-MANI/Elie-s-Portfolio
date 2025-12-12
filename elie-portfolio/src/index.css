@@ -19,3 +19,11 @@ button {
 .swiper-pagination-bullet {
   background-color: #32487a; 
 }
+
+.icon-blue {
+  filter: brightness(0) saturate(100%) invert(22%) sepia(9%) saturate(2226%) hue-rotate(191deg) brightness(94%) contrast(91%);
+}
+
+.icon-white {
+  filter: brightness(0) invert(1);
+}
