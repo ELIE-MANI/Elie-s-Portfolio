@@ -27,3 +27,7 @@ button {
 .icon-white {
   filter: brightness(0) invert(1);
 }
+.bg-gray {
+  background-color: #f5f7fa;
+  color: black;
+}

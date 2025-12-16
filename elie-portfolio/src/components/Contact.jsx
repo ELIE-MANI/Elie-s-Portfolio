@@ -6,7 +6,7 @@ import location from '../images/location.png';
 function Contact() {
 
 return (
-    <section id='contact' className="mt-20 bg-gray-100 p-20 h-full">
+    <section id='contact' className="mt-20 p-20 h-full">
         <div>
             <h2 className="text-center text-3xl font-bold">Contact Me</h2>
             <p className="text-center text-gray-500">Get in touch</p>

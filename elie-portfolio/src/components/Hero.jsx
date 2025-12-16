@@ -2,6 +2,7 @@ import avatar from '../images/Avatar.jpg';
 import linkedIn from '../images/linkedIn.png';
 import twitter from '../images/twitter.png';
 import github from '../images/github.png';
+import Mouse from '../images/mouse.png';
 
 
 
@@ -11,13 +12,13 @@ function Hero() {
     <section id='Home' className='mt-50 flex justify-center items-center space-x-30 p-5 '>
       <div className='flex flex-col space-y-10 items-center'>
         <a href="https://www.linkedin.com/in/maniraguha-elie-1b37a922a/" target="_blank" rel="noopener noreferrer">
-        <img src={linkedIn} alt="LinkedIn Logo" className="w-4 h-4 object-cover transition-transform duration-200 hover:scale-110"/>
+        <img src={linkedIn} alt="LinkedIn Logo" className="icon-blue w-4 h-4 object-cover transition-transform duration-200 hover:scale-110"/>
         </a>
         <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
-        <img src={twitter} alt="Twitter Logo" className="w-4 h-4 object-cover mx-4 transition-transform duration-200 hover:scale-110"/>
+        <img src={twitter} alt="Twitter Logo" className="icon-blue w-4 h-4 object-cover mx-4 transition-transform duration-200 hover:scale-110"/>
         </a>
         <a href="https://github.com/ELIE-MANI" target="_blank" rel="noopener noreferrer">
-        <img src={github} alt="GitHub Logo" className="w-4 h-4 object-cover transition-transform duration-200 hover:scale-110 "/>
+        <img src={github} alt="GitHub Logo" className="icon-blue w-4 h-4 object-cover transition-transform duration-200 hover:scale-110 "/>
         </a>
       </div>
       <div>
@@ -27,11 +28,22 @@ function Hero() {
         <a href="#contact">
         <button className="mt-8 px-6 py-3 bg-blue-600 text-white rounded-lg">Get in Touch</button>
       </a>
+   
       </div>
       <div>
         <img src={avatar} alt="Elie's Avatar" className="w-64 h-64 rounded-full object-cover"/>
       </div>
     </section>
+         <div className=''>
+         
+      <a href="#about">
+         
+        <button className='bg-gray mx-100 mt-24 px-6 py-3 flex items-center space-x-4 hover: transition-transform duration-200 hover:scale-105'>
+          <img src={Mouse} alt="Mouse" className='icon-blue w-8 h-8' /> Scroll Down ⬇
+        </button>
+      </a>
+    </div>
+  
     </>
    );
 }
