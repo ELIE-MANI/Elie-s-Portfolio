@@ -4,7 +4,7 @@ import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
 import Dashboard from "../images/DASHBOARD.png"
-import Capture from "../images/Capture.png"
+import Capture from "../images/capture.PNG"
 import FoodApp from "../images/food app.png"
 import LearnHorizon from"../images/LEARN HORIZON.png"
 
