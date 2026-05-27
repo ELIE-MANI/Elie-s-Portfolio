@@ -4,7 +4,7 @@ import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
 import Dashboard from "../images/DASHBOARD.png"
-import Capture from "../images/capture.png"
+import capture from "../images/capture.png"
 import FoodApp from "../images/food app.png"
 import LearnHorizon from"../images/LEARN HORIZON.png"
 
@@ -23,7 +23,7 @@ const projects = [
     },
 
     {
-        image: Capture,
+        image: capture,
         title: "Task Master",
         description: "A productivity app that allows users to create, organize, and prioritize their tasks efficiently.",   
     },
