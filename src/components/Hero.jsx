@@ -1,5 +1,5 @@
 import avatar from '../images/Avatar.jpg';
-import linkedIn from '../images/linkedIn.png';
+import linkedIn from '../images/linkedin.png';
 import twitter from '../images/twitter.png';
 import github from '../images/github.png';
 import Mouse from '../images/mouse.png';
