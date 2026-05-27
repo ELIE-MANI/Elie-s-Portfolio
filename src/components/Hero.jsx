@@ -23,8 +23,14 @@ function Hero() {
       </div>
       <div>
         <h1 className="text-5xl font-bold">Hi, I'm Elie</h1>
-        <p className='mt-4 text-gray-500 '>Front-end Developer</p>
-        <p className="mt-4 text-base text-gray-500">A passionate developer specializing <br /> in creating amazing web experiences.</p>
+        <p className='mt-4 text-gray-500 '>Creative Full-Stack Web Developer</p>
+        <p className="mt-4 text-base text-gray-500">
+         Full-Stack Developer and UI/UX Designer <br />
+          focused on creating high-quality digital <br /> experiences 
+          that are modern, scalable, and <br />intuitive. I enjoy transforming
+           ideas into  <br />real-world products using modern frontend  <br />
+           and backend technologies.
+          </p>
         <a href="#contact">
         <button className="mt-8 px-6 py-3 bg-blue-600 text-white rounded-lg">Get in Touch</button>
       </a>

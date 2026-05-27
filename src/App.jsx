@@ -1,7 +1,7 @@
 
 import {About} from "./components/About.jsx";
 import Hero from "./components/Hero";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar";
 import Skills from "./components/Skills.jsx";
 import Services from "./components/Services.jsx";
 import Portfolio from "./components/Portfolio.jsx";
